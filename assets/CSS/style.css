@@ -1,0 +1,30 @@
+
+.container{
+    display: flex;
+}
+img{
+    
+    height: 100px;
+    width: 100px;
+}
+.menu{
+    flex: 1;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    
+    
+}
+
+.menu ul li a{
+    display: inline block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: larger;
+    color: rosybrown;
+    
+
+    
+}
